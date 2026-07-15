@@ -185,6 +185,7 @@
 		08F4AA3D1C6E9776004DAAF7 /* CCTransitionTest.m in Sources */ = {isa = PBXBuildFile; fileRef = B70AFC2F180F2D7400516435 /* CCTransitionTest.m */; };
 		08F4AA3E1C6E9776004DAAF7 /* unzip.c in Sources */ = {isa = PBXBuildFile; fileRef = 089949E61C67F97D00ECC92C /* unzip.c */; };
 		08F4AA3F1C6E9776004DAAF7 /* ParticleTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 758A6C7A18440D5C00D1A8D2 /* ParticleTest.m */; };
+		6CB7D77F71174FD39E78175B /* DeepHardDemoTest.m in Sources */ = {isa = PBXBuildFile; fileRef = BAB557BA24794F6CB45C6156 /* DeepHardDemoTest.m */; };
 		08F4AA401C6E9776004DAAF7 /* CCTableViewTest.m in Sources */ = {isa = PBXBuildFile; fileRef = B7C6238B17ECDF6A00928F91 /* CCTableViewTest.m */; };
 		08F4AA411C6E9776004DAAF7 /* CCPackageUnzipper.m in Sources */ = {isa = PBXBuildFile; fileRef = 0899499F1C67F40000ECC92C /* CCPackageUnzipper.m */; };
 		08F4AA421C6E9776004DAAF7 /* zip.c in Sources */ = {isa = PBXBuildFile; fileRef = 089949E81C67F97D00ECC92C /* zip.c */; };
@@ -296,6 +297,7 @@
 		758A6C6D1843E5CB00D1A8D2 /* Images in Resources */ = {isa = PBXBuildFile; fileRef = 758A6C6B1843E5C500D1A8D2 /* Images */; };
 		758A6C711844011E00D1A8D2 /* CCLabelTTFTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 758A6C701844011E00D1A8D2 /* CCLabelTTFTest.m */; };
 		758A6C7B18440D5C00D1A8D2 /* ParticleTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 758A6C7A18440D5C00D1A8D2 /* ParticleTest.m */; };
+		030B5EA72A114390B362BB64 /* DeepHardDemoTest.m in Sources */ = {isa = PBXBuildFile; fileRef = BAB557BA24794F6CB45C6156 /* DeepHardDemoTest.m */; };
 		758A6C80184410EE00D1A8D2 /* Particles in Resources */ = {isa = PBXBuildFile; fileRef = 758A6C7F184410EE00D1A8D2 /* Particles */; };
 		75F76497185A831B00E2FAFE /* Sounds in Resources */ = {isa = PBXBuildFile; fileRef = 75F76496185A831B00E2FAFE /* Sounds */; };
 		92324E2A18EB635500D78D3F /* CCReaderTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 92324E2918EB635500D78D3F /* CCReaderTest.m */; };
@@ -441,6 +443,7 @@
 		D3763D4919E734C5006C050D /* CCLabelTTFTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 758A6C701844011E00D1A8D2 /* CCLabelTTFTest.m */; };
 		D3763D4A19E734C5006C050D /* ParallaxTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 758A690E1843E18700D1A8D2 /* ParallaxTest.m */; };
 		D3763D4B19E734C5006C050D /* ParticleTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 758A6C7A18440D5C00D1A8D2 /* ParticleTest.m */; };
+		32F0D8FD9FD44D058A5FD7FE /* DeepHardDemoTest.m in Sources */ = {isa = PBXBuildFile; fileRef = BAB557BA24794F6CB45C6156 /* DeepHardDemoTest.m */; };
 		D3763D4C19E734C5006C050D /* CCPhysicsTest.m in Sources */ = {isa = PBXBuildFile; fileRef = D340E10C185660BE006E605C /* CCPhysicsTest.m */; };
 		D3763D4D19E734C5006C050D /* TilemapTest.m in Sources */ = {isa = PBXBuildFile; fileRef = D340E10D185660BE006E605C /* TilemapTest.m */; };
 		D3763D4E19E734C5006C050D /* TextureTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7587BDB2185A0A6900EEEFDE /* TextureTest.m */; };
@@ -742,6 +745,7 @@
 		758A6C6B1843E5C500D1A8D2 /* Images */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Images; path = Resources/Images; sourceTree = SOURCE_ROOT; };
 		758A6C701844011E00D1A8D2 /* CCLabelTTFTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CCLabelTTFTest.m; path = "cocos2d-ui-tests/tests/CCLabelTTFTest.m"; sourceTree = SOURCE_ROOT; };
 		758A6C7A18440D5C00D1A8D2 /* ParticleTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ParticleTest.m; path = "cocos2d-ui-tests/tests/ParticleTest.m"; sourceTree = SOURCE_ROOT; };
+		BAB557BA24794F6CB45C6156 /* DeepHardDemoTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DeepHardDemoTest.m; path = "cocos2d-ui-tests/tests/DeepHardDemoTest.m"; sourceTree = SOURCE_ROOT; };
 		758A6C7F184410EE00D1A8D2 /* Particles */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Particles; path = Resources/Particles; sourceTree = SOURCE_ROOT; };
 		75F76496185A831B00E2FAFE /* Sounds */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Sounds; path = Resources/Sounds; sourceTree = SOURCE_ROOT; };
 		92324E2918EB635500D78D3F /* CCReaderTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCReaderTest.m; sourceTree = "<group>"; };
@@ -1284,6 +1288,7 @@
 				758A6C701844011E00D1A8D2 /* CCLabelTTFTest.m */,
 				758A690E1843E18700D1A8D2 /* ParallaxTest.m */,
 				758A6C7A18440D5C00D1A8D2 /* ParticleTest.m */,
+				BAB557BA24794F6CB45C6156 /* DeepHardDemoTest.m */,
 				D340E10C185660BE006E605C /* CCPhysicsTest.m */,
 				D340E10D185660BE006E605C /* TilemapTest.m */,
 				7587BDB2185A0A6900EEEFDE /* TextureTest.m */,
@@ -2057,6 +2062,7 @@
 				08F4AA3D1C6E9776004DAAF7 /* CCTransitionTest.m in Sources */,
 				08F4AA3E1C6E9776004DAAF7 /* unzip.c in Sources */,
 				08F4AA3F1C6E9776004DAAF7 /* ParticleTest.m in Sources */,
+				6CB7D77F71174FD39E78175B /* DeepHardDemoTest.m in Sources */,
 				08F4AA401C6E9776004DAAF7 /* CCTableViewTest.m in Sources */,
 				08F4AA411C6E9776004DAAF7 /* CCPackageUnzipper.m in Sources */,
 				08F4AA421C6E9776004DAAF7 /* zip.c in Sources */,
@@ -2193,6 +2199,7 @@
 				B70AFC30180F2D7400516435 /* CCTransitionTest.m in Sources */,
 				089949F21C67F97D00ECC92C /* unzip.c in Sources */,
 				758A6C7B18440D5C00D1A8D2 /* ParticleTest.m in Sources */,
+				030B5EA72A114390B362BB64 /* DeepHardDemoTest.m in Sources */,
 				B7C6238C17ECDF6A00928F91 /* CCTableViewTest.m in Sources */,
 				089949B91C67F40000ECC92C /* CCPackageUnzipper.m in Sources */,
 				089949F51C67F97D00ECC92C /* zip.c in Sources */,
@@ -2269,6 +2276,7 @@
 				084B955F1C6BA1DD003A580D /* ALListener.m in Sources */,
 				084B956B1C6BA1DD003A580D /* OALSuspendHandler.m in Sources */,
 				D3763D4B19E734C5006C050D /* ParticleTest.m in Sources */,
+				32F0D8FD9FD44D058A5FD7FE /* DeepHardDemoTest.m in Sources */,
 				084B95711C6BA1DD003A580D /* NSMutableArray+WeakReferences.m in Sources */,
 				084B95451C6BA1DD003A580D /* OALAction.m in Sources */,
 				089949851C67F2D600ECC92C /* CCParticleSystemBase.m in Sources */,
