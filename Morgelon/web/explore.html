@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>MORGELON — Explore</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=DM+Mono:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div id="grain" aria-hidden="true"></div>
+  <canvas id="veins" aria-hidden="true"></canvas>
+  <main id="app">
+    <section class="screen active">
+      <p class="brand">MORGELON</p>
+      <h1 class="headline">Interactive evidence path</h1>
+      <p class="support">Clinic · Body · Flood · Aspen. Or return to the horror cinematic.</p>
+      <div class="cta-row">
+        <a class="cta" href="index.html">Watch cinematic</a>
+        <a class="cta ghost" href="game.html?screen=clinic">Enter the clinic</a>
+      </div>
+    </section>
+    <!-- legacy interactive scenes remain in game.js for explore -->
+    <section id="screen-clinic" class="screen" data-screen="clinic" hidden></section>
+  </main>
+  <footer class="frame-note">Fiction · body horror · not medical advice</footer>
+  <script>
+    // Thin redirect hub — full interactive path lives on game.html
+    document.querySelector('[data-go="clinic"]')?.addEventListener('click', () => {
+      location.href = 'game.html#clinic';
+    });
+  </script>
+</body>
+</html>

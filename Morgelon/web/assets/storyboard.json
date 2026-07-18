@@ -1,0 +1,119 @@
+{
+  "title": "MORGELON",
+  "logline": "Threads come out everywhere. Doctors call them crazy. Aspens grow in the blood. The appearance of mischief is evidence enough with power.",
+  "disclaimer": "Fiction · body horror cinematic · not medical advice",
+  "style_bible": {
+    "look": "clinical body-horror cinema; venous dark greens, aspen-bark white, filament chartreuse, blood rust",
+    "camera": "intimate_observer with impossible micro-endoscopy inserts",
+    "color_grading": "cold_steel",
+    "light_scheme": "practicals",
+    "genre": "horror",
+    "negative": "cartoon, comedy, bright spa wellness, purple neon cyberpunk, cream terracotta lifestyle, newspaper collage"
+  },
+  "shots": [
+    {
+      "id": "01_title",
+      "slug": "TITLE",
+      "duration_sec": 8,
+      "narration": "Morgelon.",
+      "on_screen": "MORGELON",
+      "support": "Threads come out everywhere.",
+      "image_prompt": "Cinematic wide establishing still, 16:9, body-horror film key art. Giant serif title space left empty in lower third. Full-bleed forest of pale aspen trunks growing inside a dark venous void, thin glowing chartreuse filaments like fishing line between the trees, deep olive-black atmosphere, subtle film grain, no people, no text, no logos, photoreal cinematic lighting.",
+      "video_prompt": "Slow impossible camera drift through a dark venous forest of pale aspens. Thin glowing filaments tremble between trunks. Subtle pulse like a heartbeat. Horror cinema, cold steel grade, no text, no faces.",
+      "camera_style": "dreamy_flow",
+      "light_scheme": "contre_jour",
+      "color_grading": "cold_steel"
+    },
+    {
+      "id": "02_clinic",
+      "slug": "CLINIC",
+      "duration_sec": 10,
+      "narration": "Doctors call them crazy and tell them to leave.",
+      "on_screen": "There is nothing in your skin.",
+      "support": "They look at the door — not the thread.",
+      "image_prompt": "Cinematic 16:9 still, harsh fluorescent clinic corridor, overexposed white-green tubes, empty plastic chair, exam paper crinkle, a single pale fiber on a gloved fingertip in extreme foreground bokeh, sterile dread, bleach-bypass mood, no readable text, no faces shown clearly — only the back of a white coat walking away.",
+      "video_prompt": "Handheld intimate observer shot in a fluorescent clinic. A white coat walks away down the corridor. Focus racks from a thin pale fiber between fingers to the slamming door. Horror genre, cold clinical light, no dialogue captions.",
+      "camera_style": "intimate_observer",
+      "light_scheme": "overhead_fall",
+      "color_grading": "bleach_bypass"
+    },
+    {
+      "id": "03_thread",
+      "slug": "THREAD",
+      "duration_sec": 8,
+      "narration": "Threads come out everywhere.",
+      "on_screen": "Pull what should not be there.",
+      "support": "Aspen white. Still warm.",
+      "image_prompt": "Extreme macro cinematic still, 16:9, a luminous pale filament emerging from skin like root silk, microscopic aspen-bark texture on the fiber, wet sheen, shallow depth of field, body-horror realism, chartreuse specular highlights, dark venous background, no text, no instruments yet.",
+      "video_prompt": "Macro push-in as a pale filament slowly draws out of skin, trembling, catching light like fishing line. Micro fibers branch. Horror macro cinematography, silent machine camera, cold steel grade.",
+      "camera_style": "silent_machine",
+      "light_scheme": "practicals",
+      "color_grading": "cold_steel"
+    },
+    {
+      "id": "04_mischief",
+      "slug": "MISCHIEF",
+      "duration_sec": 9,
+      "narration": "Ticks. Needles. A blessing that felt like protocol. Genetic mischief with a pulse.",
+      "on_screen": "Enhancement of needles and voodoo.",
+      "support": "Real symptoms. Filed as delusion.",
+      "image_prompt": "Cinematic 16:9 still, fractured memory collage without collage borders: tick silhouette on skin, hypodermic gleam, ritual pin points of light in darkness, DNA helix dissolving into root filaments, all fused into one photographic frame with double-exposure logic, horror film still, muted greens and rust, no readable labels, no logos.",
+      "video_prompt": "Dreamy flow through layered memory: tick legs, needle bevel catching light, pin points like ritual stars, genetic strands becoming root threads. Suspenseful horror, sodium decay grade, no text.",
+      "camera_style": "dreamy_flow",
+      "light_scheme": "silhouette",
+      "color_grading": "sodium_decay"
+    },
+    {
+      "id": "05_flood",
+      "slug": "FLOOD",
+      "duration_sec": 10,
+      "narration": "Flooding the zones and lies.",
+      "on_screen": "The zone was never contaminated.",
+      "support": "Lies rise faster than water.",
+      "image_prompt": "Cinematic 16:9 still of a flooded quarantine street at night, plastic sheeting breathing in wind, emergency amber strobes under water, floating papers with ink bleeding black, pale filaments snagged on barrier tape, oppressive humidity, horror realism, teal-dark water, no readable headlines, no logos.",
+      "video_prompt": "Slow wade through knee-deep quarantine floodwater at night. Plastic sheeting breathes. Amber lights strobe under the surface. Papers dissolve. Horror documentary snap energy under cold steel grade.",
+      "camera_style": "documentary_snap",
+      "light_scheme": "practicals",
+      "color_grading": "cold_steel"
+    },
+    {
+      "id": "06_vaccine",
+      "slug": "UNKNOWN",
+      "duration_sec": 8,
+      "narration": "Vaccine?? No one knows.",
+      "on_screen": "Batch codes blacked out.",
+      "support": "The clipboard smiles without answering.",
+      "image_prompt": "Cinematic 16:9 still, close-up of a metal clipboard under sick green clinic light, thick black redaction bars over codes, a vial silhouette out of focus, condensation, dread, photoreal, no brand names, no readable words except abstract redaction geometry.",
+      "video_prompt": "Slow lateral move across a redacted clipboard and blurry vial. Condensation creeps. Fluorescent flicker. Horror noir tension, bleach bypass, no readable text.",
+      "camera_style": "classic_static",
+      "light_scheme": "overhead_fall",
+      "color_grading": "bleach_bypass"
+    },
+    {
+      "id": "07_aspen",
+      "slug": "ASPEN / BLOOD",
+      "duration_sec": 12,
+      "narration": "Trees grow, like aspens, in your blood.",
+      "on_screen": "Inside the vein.",
+      "support": "A forest that learned your pulse.",
+      "image_prompt": "Cinematic 16:9 endoscopic dream image: pale aspen trunks rising through a tunnel of living blood and dark plasma, leaves like platelets, glowing filament mycelium, beautiful and wrong, body-horror sublime, deep crimson and bark white, photoreal volumetric light, no text.",
+      "video_prompt": "Impossible camera flight inside a vein where aspen trees grow and sway with the pulse. Filaments bridge trunk to trunk. Leaves flicker like cells. Horror epic intimacy, contre-jour, cold steel mixed with blood red.",
+      "camera_style": "impossible_camera",
+      "light_scheme": "contre_jour",
+      "color_grading": "cold_steel"
+    },
+    {
+      "id": "08_power",
+      "slug": "POWER",
+      "duration_sec": 10,
+      "narration": "The appearance of mischief is evidence enough with power.",
+      "on_screen": "The appearance of mischief is evidence enough with power.",
+      "support": "They called you crazy. The filaments kept the minutes.",
+      "image_prompt": "Cinematic 16:9 final key art, figure seen only as silhouette laced with glowing chartreuse filaments standing before an aspen forest inside a blood-dark sky, quiet triumph of evidence, horror film ending frame, grain, no logos, no readable text.",
+      "video_prompt": "Slow push toward a filament-laced silhouette before an aspen forest under a blood-dark sky. Filaments brighten with each pulse. Hold. Fade. Horror cinema finale, intimate observer, cold steel.",
+      "camera_style": "intimate_observer",
+      "light_scheme": "contre_jour",
+      "color_grading": "cold_steel"
+    }
+  ]
+}

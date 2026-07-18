@@ -1,42 +1,52 @@
 # MORGELON
 
-Body-horror evidence game for Cocos2D-ObjC, with a playable web prototype.
+Horror story + video-game cinematic about threads, clinic denial, flooded zones, and aspens in the blood.
 
-**Fiction.** Inspired by contested phenomena (threads, ticks, needles, dismissal) — not medical advice.
+**Fiction.** Not medical advice.
 
-## Thesis
-
-Threads come out everywhere. Doctors call them crazy and tell them to leave. Trees grow like aspens in the blood. Vaccine?? No one knows. Flooding the zones and lies. The appearance of mischief is evidence enough with power.
-
-## Play (web)
-
-Open `web/index.html` in a browser, or serve the folder:
+## Watch the cinematic
 
 ```bash
 cd Morgelon/web && python3 -m http.server 8765
 ```
 
-Then visit `http://localhost:8765`.
+Open `http://localhost:8765` → **Play cinematic**.
 
-Path: **Clinic → Body (pull threads) → Flooded zones → Aspen / blood**.
+Interactive evidence path: `http://localhost:8765/game.html`
 
-## iOS (Cocos2D)
+## Higgsfield AI assets
 
-`Classes/` contains scene scaffolding on Cocos2D-ObjC:
+Stills currently in `cinematic/assets/stills/` are interim key art so the film can run now.
 
-| Scene | Role |
+To regenerate **Cinema Studio** stills + horror clips with [Higgsfield](https://higgsfield.ai):
+
+```bash
+# once
+curl -fsSL https://raw.githubusercontent.com/higgsfield-ai/cli/main/install.sh | sh
+higgsfield auth login
+
+# generate 8 stills (cinematic_studio_2_5) + 8 clips (cinematic_studio_video_3_5, genre=horror)
+cd Morgelon/cinematic
+./generate_higgsfield.sh
+```
+
+Storyboard + prompts: `cinematic/storyboard.json`  
+Pipeline writes: `cinematic/assets/{stills,clips}/` and refreshes `manifest.json`  
+The web player reads that manifest and prefers `clip` over Ken Burns stills.
+
+### Shot list
+
+| ID | Beat |
 | --- | --- |
-| `MorgelonTitleScene` | Brand entry |
-| `MorgelonClinicScene` | Medical dismissal |
-| `MorgelonBodyScene` | Thread extraction / bloom |
-| `MorgelonFloodScene` | Quarantine lies / vaccine unknown |
-| `MorgelonAspenScene` | Ending — mischief as power |
-| `MorgelonState` | Threads, evidence, denial, bloom, power |
+| 01_title | Brand / venous aspen forest |
+| 02_clinic | Doctors tell them to leave |
+| 03_thread | Filaments |
+| 04_mischief | Ticks, needles, genetic mischief |
+| 05_flood | Flooding the zones and lies |
+| 06_vaccine | Vaccine?? No one knows |
+| 07_aspen | Trees in the blood |
+| 08_power | Appearance of mischief is evidence enough with power |
 
-Wire `AppDelegate` into an Xcode target that links this repo’s `cocos2d` product (same pattern as `tests/PerformanceTests`).
+## Cocos2D scenes
 
-## Systems
-
-- **Threads** — pull filaments; each pull raises bloom and evidence.
-- **Denial** — clinic and flood responses feed the aspen bloom.
-- **Power** — evidence × persistence; ascent when mischief is undeniable.
+`Classes/` — ObjC scene scaffolding (Title → Clinic → Body → Flood → Aspen) for an iOS target on this engine.

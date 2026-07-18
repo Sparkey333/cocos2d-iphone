@@ -1,0 +1,90 @@
+{
+  "title": "MORGELON",
+  "logline": "Threads come out everywhere. Doctors call them crazy. Aspens grow in the blood. The appearance of mischief is evidence enough with power.",
+  "disclaimer": "Fiction \u00b7 body horror cinematic \u00b7 not medical advice",
+  "source": "interim-keyart",
+  "note": "Replace with Higgsfield Cinema Studio outputs via cinematic/generate_higgsfield.sh after auth login",
+  "generated_at": "2026-07-18T12:10:49Z",
+  "shots": [
+    {
+      "id": "01_title",
+      "slug": "TITLE",
+      "still": "stills/01_title.png",
+      "clip": null,
+      "duration_sec": 8,
+      "narration": "Morgelon.",
+      "on_screen": "MORGELON",
+      "support": "Threads come out everywhere."
+    },
+    {
+      "id": "02_clinic",
+      "slug": "CLINIC",
+      "still": "stills/02_clinic.png",
+      "clip": null,
+      "duration_sec": 10,
+      "narration": "Doctors call them crazy and tell them to leave.",
+      "on_screen": "There is nothing in your skin.",
+      "support": "They look at the door \u2014 not the thread."
+    },
+    {
+      "id": "03_thread",
+      "slug": "THREAD",
+      "still": "stills/03_thread.png",
+      "clip": null,
+      "duration_sec": 8,
+      "narration": "Threads come out everywhere.",
+      "on_screen": "Pull what should not be there.",
+      "support": "Aspen white. Still warm."
+    },
+    {
+      "id": "04_mischief",
+      "slug": "MISCHIEF",
+      "still": "stills/04_mischief.png",
+      "clip": null,
+      "duration_sec": 9,
+      "narration": "Ticks. Needles. A blessing that felt like protocol. Genetic mischief with a pulse.",
+      "on_screen": "Enhancement of needles and voodoo.",
+      "support": "Real symptoms. Filed as delusion."
+    },
+    {
+      "id": "05_flood",
+      "slug": "FLOOD",
+      "still": "stills/05_flood.png",
+      "clip": null,
+      "duration_sec": 10,
+      "narration": "Flooding the zones and lies.",
+      "on_screen": "The zone was never contaminated.",
+      "support": "Lies rise faster than water."
+    },
+    {
+      "id": "06_vaccine",
+      "slug": "UNKNOWN",
+      "still": "stills/06_vaccine.png",
+      "clip": null,
+      "duration_sec": 8,
+      "narration": "Vaccine?? No one knows.",
+      "on_screen": "Batch codes blacked out.",
+      "support": "The clipboard smiles without answering."
+    },
+    {
+      "id": "07_aspen",
+      "slug": "ASPEN / BLOOD",
+      "still": "stills/07_aspen.png",
+      "clip": null,
+      "duration_sec": 12,
+      "narration": "Trees grow, like aspens, in your blood.",
+      "on_screen": "Inside the vein.",
+      "support": "A forest that learned your pulse."
+    },
+    {
+      "id": "08_power",
+      "slug": "POWER",
+      "still": "stills/08_power.png",
+      "clip": null,
+      "duration_sec": 10,
+      "narration": "The appearance of mischief is evidence enough with power.",
+      "on_screen": "The appearance of mischief is evidence enough with power.",
+      "support": "They called you crazy. The filaments kept the minutes."
+    }
+  ]
+}

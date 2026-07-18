@@ -221,7 +221,7 @@
   refreshMeters();
   requestAnimationFrame(frame);
 
-  const boot = new URLSearchParams(location.search).get("screen");
+  const boot = new URLSearchParams(location.search).get("screen") || (location.hash || "").replace("#", "");
   if (boot && ["title", "clinic", "body", "flood", "aspen"].includes(boot)) {
     if (boot !== "title") {
       // Seed a mid-run state so meters / ending read as lived-in.

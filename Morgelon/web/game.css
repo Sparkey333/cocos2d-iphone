@@ -1,0 +1,93 @@
+body:not(.cinema) {
+  min-height: 100vh;
+  background:
+    radial-gradient(120% 80% at 70% 10%, rgba(139, 46, 46, 0.28), transparent 55%),
+    radial-gradient(90% 70% at 15% 85%, rgba(184, 224, 106, 0.12), transparent 50%),
+    linear-gradient(165deg, #0b1210 0%, #152019 45%, #1a0f10 100%);
+}
+
+.eyebrow {
+  margin: 0;
+  font-size: 0.72rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--filament);
+}
+
+.meter {
+  font-size: 0.75rem;
+  letter-spacing: 0.06em;
+  color: var(--filament);
+  border-left: 2px solid rgba(184, 224, 106, 0.55);
+  padding-left: 0.85rem;
+  min-height: 1.2em;
+}
+
+.thread-stage {
+  position: relative;
+  width: 100%;
+  height: 4.5rem;
+  overflow: hidden;
+}
+
+.thread {
+  position: absolute;
+  left: 0;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--filament), rgba(232, 228, 216, 0.9));
+  transform-origin: left center;
+  animation: thread-draw 1.1s cubic-bezier(0.22, 1, 0.36, 1) both;
+  box-shadow: 0 0 8px rgba(184, 224, 106, 0.45);
+}
+
+@keyframes thread-draw {
+  from { width: 0; opacity: 0; }
+  to { width: var(--len, 70%); opacity: 1; }
+}
+
+body.mode-clinic {
+  background:
+    repeating-linear-gradient(
+      0deg,
+      transparent,
+      transparent 3px,
+      rgba(255, 255, 255, 0.03) 3px,
+      rgba(255, 255, 255, 0.03) 4px
+    ),
+    linear-gradient(180deg, #c5cdd1 0%, #b4bec4 100%);
+}
+
+body.mode-clinic #veins {
+  opacity: 0.18;
+  mix-blend-mode: multiply;
+}
+
+body.mode-clinic .frame-note {
+  color: rgba(21, 32, 37, 0.35);
+}
+
+#screen-clinic {
+  color: #1a2226;
+}
+
+#screen-clinic .headline {
+  color: #152025;
+}
+
+#screen-clinic .support {
+  color: rgba(21, 32, 37, 0.78);
+}
+
+#screen-clinic .eyebrow {
+  color: #5a6a50;
+}
+
+#screen-clinic .cta {
+  color: #152025;
+  border-color: rgba(21, 32, 37, 0.35);
+  background: rgba(255, 255, 255, 0.35);
+}
+
+.screen[hidden] {
+  display: none !important;
+}
