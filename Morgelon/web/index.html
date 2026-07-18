@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>MORGELON</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=DM+Mono:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div id="grain" aria-hidden="true"></div>
+  <canvas id="veins" aria-hidden="true"></canvas>
+
+  <main id="app">
+    <section id="screen-title" class="screen active" data-screen="title">
+      <p class="brand">MORGELON</p>
+      <h1 class="headline">Threads come out everywhere.</h1>
+      <p class="support">Doctors call them crazy and tell them to leave. Trees grow — like aspens — in the blood.</p>
+      <div class="cta-row">
+        <button type="button" class="cta" data-go="clinic">Enter the clinic</button>
+      </div>
+    </section>
+
+    <section id="screen-clinic" class="screen" data-screen="clinic" hidden>
+      <p class="eyebrow">Room 4 · fluorescent noon</p>
+      <h1 class="headline">There is nothing in your skin.</h1>
+      <p class="support" id="clinic-copy">They do not look at the thread between your fingers. They look at the door.</p>
+      <div class="cta-row">
+        <button type="button" class="cta ghost" id="btn-insist">Show them a thread</button>
+        <button type="button" class="cta" data-go="body">Leave</button>
+      </div>
+    </section>
+
+    <section id="screen-body" class="screen" data-screen="body" hidden>
+      <p class="eyebrow">Specimen · self</p>
+      <h1 class="headline">Pull what should not be there.</h1>
+      <p class="support">Ticks. Needles. A blessing that felt like protocol. Genetic mischief with a pulse.</p>
+      <div class="meter" id="body-meter" aria-live="polite"></div>
+      <div class="thread-stage" id="thread-stage" aria-hidden="true"></div>
+      <div class="cta-row">
+        <button type="button" class="cta" id="btn-pull">Pull a thread</button>
+        <button type="button" class="cta ghost" data-go="flood">Flooded zones</button>
+      </div>
+    </section>
+
+    <section id="screen-flood" class="screen" data-screen="flood" hidden>
+      <p class="eyebrow">Quarantine water · press release already drying</p>
+      <h1 class="headline">Flooding the zones and lies.</h1>
+      <p class="support" id="flood-copy">Plastic sheeting breathes. Sirens rewrite the shoreline. Your name is a rumor with a stamp.</p>
+      <div class="cta-row">
+        <button type="button" class="cta ghost" id="btn-wade">Wade deeper</button>
+        <button type="button" class="cta ghost" id="btn-vax">Vaccine??</button>
+        <button type="button" class="cta" data-go="aspen">Follow the aspen</button>
+      </div>
+    </section>
+
+    <section id="screen-aspen" class="screen" data-screen="aspen" hidden>
+      <p class="eyebrow">Inside the vein</p>
+      <h1 class="headline" id="aspen-headline">Aspens in your blood.</h1>
+      <p class="support" id="aspen-copy"></p>
+      <div class="meter" id="aspen-meter" aria-live="polite"></div>
+      <div class="cta-row">
+        <button type="button" class="cta" id="btn-again">Begin again</button>
+      </div>
+    </section>
+  </main>
+
+  <footer class="frame-note">Fiction · body horror · not medical advice</footer>
+  <script src="game.js"></script>
+</body>
+</html>
