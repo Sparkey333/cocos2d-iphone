@@ -1,52 +1,50 @@
 # MORGELON
 
-Horror story + video-game cinematic about threads, clinic denial, flooded zones, and aspens in the blood.
+Horror game / cinematic: **Resident Evil** facility structure × **fungal group mind** × **The Fly** practical body-horror production value.
 
-**Fiction.** Not medical advice.
+**Fiction.** Not medical advice. No real injury — prosthetics, gel, fishing line.
 
-## Watch the cinematic
+## Pillars
+
+See [`DESIGN.md`](DESIGN.md).
+
+1. RE loop — keys, safe rooms, scarce resources, Joined encounters  
+2. Chorus — mycelial hivemind; filaments carry memory  
+3. The Fly look — wet macros, tragic transformation, lab-as-confession  
+
+## Watch / play (web prototype)
 
 ```bash
 cd Morgelon/web && python3 -m http.server 8765
 ```
 
-Open `http://localhost:8765` → **Play cinematic**.
+| URL | What |
+| --- | --- |
+| `/` | Cinematic player |
+| `/game.html` | Interactive evidence path |
+| `/direct.html` | Pocket DJI director’s slate |
 
-Interactive evidence path: `http://localhost:8765/game.html`
+## You have DJI cameras — I’ll direct
 
-## Higgsfield AI assets
+Full call sheet: [`cinematic/DIRECTOR_BRIEF.md`](cinematic/DIRECTOR_BRIEF.md)
 
-Stills currently in `cinematic/assets/stills/` are interim key art so the film can run now.
+Drop plates:
 
-To regenerate **Cinema Studio** stills + horror clips with [Higgsfield](https://higgsfield.ai):
-
-```bash
-# once
-curl -fsSL https://raw.githubusercontent.com/higgsfield-ai/cli/main/install.sh | sh
-higgsfield auth login
-
-# generate 8 stills (cinematic_studio_2_5) + 8 clips (cinematic_studio_video_3_5, genre=horror)
-cd Morgelon/cinematic
-./generate_higgsfield.sh
+```text
+Morgelon/cinematic/assets/plates/DJI/MORG_D1_A01.mp4
 ```
 
-Storyboard + prompts: `cinematic/storyboard.json`  
-Pipeline writes: `cinematic/assets/{stills,clips}/` and refreshes `manifest.json`  
-The web player reads that manifest and prefers `clip` over Ken Burns stills.
+Then cut into `cinematic/assets/clips/` (shot ids `01_title` … `08_power`) or use as Higgsfield `--video-references`.
 
-### Shot list
+## Higgsfield AI
 
-| ID | Beat |
-| --- | --- |
-| 01_title | Brand / venous aspen forest |
-| 02_clinic | Doctors tell them to leave |
-| 03_thread | Filaments |
-| 04_mischief | Ticks, needles, genetic mischief |
-| 05_flood | Flooding the zones and lies |
-| 06_vaccine | Vaccine?? No one knows |
-| 07_aspen | Trees in the blood |
-| 08_power | Appearance of mischief is evidence enough with power |
+```bash
+higgsfield auth login
+cd Morgelon/cinematic && ./generate_higgsfield.sh
+```
 
-## Cocos2D scenes
+Storyboard prompts already biased to The Fly + RE + Chorus: `cinematic/storyboard.json`.
 
-`Classes/` — ObjC scene scaffolding (Title → Clinic → Body → Flood → Aspen) for an iOS target on this engine.
+## Cocos2D
+
+`Classes/` — ObjC scene scaffolding for an iOS target on this engine.

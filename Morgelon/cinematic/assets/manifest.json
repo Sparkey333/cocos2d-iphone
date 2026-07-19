@@ -1,10 +1,10 @@
 {
   "title": "MORGELON",
-  "logline": "Threads come out everywhere. Doctors call them crazy. Aspens grow in the blood. The appearance of mischief is evidence enough with power.",
+  "logline": "Survival horror in a fungal facility: Resident Evil structure, a Chorus group mind, and The Fly\u2019s wet practical body horror.",
   "disclaimer": "Fiction \u00b7 body horror cinematic \u00b7 not medical advice",
   "source": "interim-keyart",
-  "note": "Replace with Higgsfield Cinema Studio outputs via cinematic/generate_higgsfield.sh after auth login",
-  "generated_at": "2026-07-18T12:10:49Z",
+  "note": "Replace clips with DJI plates and/or Higgsfield Cinema Studio after auth",
+  "generated_at": "2026-07-19T02:49:04Z",
   "shots": [
     {
       "id": "01_title",
@@ -14,77 +14,85 @@
       "duration_sec": 8,
       "narration": "Morgelon.",
       "on_screen": "MORGELON",
-      "support": "Threads come out everywhere."
+      "support": "The facility is fruiting. The Chorus is listening.",
+      "dji_slate": "E01+E02"
     },
     {
       "id": "02_clinic",
-      "slug": "CLINIC",
+      "slug": "INTAKE",
       "still": "stills/02_clinic.png",
       "clip": null,
       "duration_sec": 10,
       "narration": "Doctors call them crazy and tell them to leave.",
       "on_screen": "There is nothing in your skin.",
-      "support": "They look at the door \u2014 not the thread."
+      "support": "Safe rooms lie too. Latch the door anyway.",
+      "dji_slate": "A01\u2013A04"
     },
     {
       "id": "03_thread",
-      "slug": "THREAD",
+      "slug": "FILAMENT",
       "still": "stills/03_thread.png",
       "clip": null,
       "duration_sec": 8,
-      "narration": "Threads come out everywhere.",
-      "on_screen": "Pull what should not be there.",
-      "support": "Aspen white. Still warm."
+      "narration": "Pull a thread \u2014 hear someone else\u2019s last minute.",
+      "on_screen": "Mycelium remembers.",
+      "support": "Inventory slot: evidence that moves.",
+      "dji_slate": "D02\u2013D03"
     },
     {
       "id": "04_mischief",
-      "slug": "MISCHIEF",
+      "slug": "JOINED",
       "still": "stills/04_mischief.png",
       "clip": null,
       "duration_sec": 9,
-      "narration": "Ticks. Needles. A blessing that felt like protocol. Genetic mischief with a pulse.",
-      "on_screen": "Enhancement of needles and voodoo.",
-      "support": "Real symptoms. Filed as delusion."
+      "narration": "The Joined do not chase alone. The Chorus aims them.",
+      "on_screen": "Group mind. Shared breath.",
+      "support": "Burn the fruiting node \u2014 desync the pack.",
+      "dji_slate": "B01\u2013B03"
     },
     {
       "id": "05_flood",
-      "slug": "FLOOD",
+      "slug": "QUARANTINE",
       "still": "stills/05_flood.png",
       "clip": null,
       "duration_sec": 10,
       "narration": "Flooding the zones and lies.",
       "on_screen": "The zone was never contaminated.",
-      "support": "Lies rise faster than water."
+      "support": "Knee water. Plastic cathedral. Loudspeaker gospel.",
+      "dji_slate": "C01\u2013C04"
     },
     {
       "id": "06_vaccine",
-      "slug": "UNKNOWN",
+      "slug": "LAB",
       "still": "stills/06_vaccine.png",
       "clip": null,
       "duration_sec": 8,
-      "narration": "Vaccine?? No one knows.",
-      "on_screen": "Batch codes blacked out.",
-      "support": "The clipboard smiles without answering."
+      "narration": "The lab promises fusion. The Chorus promises belonging.",
+      "on_screen": "Telefusion anxiety.",
+      "support": "A booth. A seal. A red LED. The Fly\u2019s prayer.",
+      "dji_slate": "D01+D05+A04"
     },
     {
       "id": "07_aspen",
-      "slug": "ASPEN / BLOOD",
+      "slug": "FRUITING",
       "still": "stills/07_aspen.png",
       "clip": null,
       "duration_sec": 12,
-      "narration": "Trees grow, like aspens, in your blood.",
-      "on_screen": "Inside the vein.",
-      "support": "A forest that learned your pulse."
+      "narration": "Aspens in the stack. Trees in the bloodline of the building.",
+      "on_screen": "Mycelial Stack / Aspen Vein",
+      "support": "Boss gate. The Chorus speaks in unison.",
+      "dji_slate": "E02\u2013E04"
     },
     {
       "id": "08_power",
-      "slug": "POWER",
+      "slug": "CHORUS",
       "still": "stills/08_power.png",
       "clip": null,
       "duration_sec": 10,
       "narration": "The appearance of mischief is evidence enough with power.",
-      "on_screen": "The appearance of mischief is evidence enough with power.",
-      "support": "They called you crazy. The filaments kept the minutes."
+      "on_screen": "Evidence is a weapon. Bloom is a countdown.",
+      "support": "They called you crazy. The filaments kept the minutes.",
+      "dji_slate": "E04+F01"
     }
   ]
 }
