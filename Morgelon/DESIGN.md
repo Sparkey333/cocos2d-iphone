@@ -10,6 +10,8 @@ A Colorado mountain horror movie/game where:
 2. **High Consensus** — altitude doesn’t confuse you; it makes the group agree  
 3. **Leaf-Peeping Eschaton** — fall-color tourism and DJI beauty shots complete the fruiting  
 
+**Body engine:** start from Morgellons-like itch, strings, ulcer sores → escalate into hallucinations (worms in blood, webs shooting from skin, trees cropping up in sleep) → film the pulls with **satisfying-disgust** extraction macros (Popper grammar, horror aftertaste). See [`EXTRACTION.md`](EXTRACTION.md).
+
 Structure borrows RE spatial tension; look borrows **The Fly** wet practical intimacy — but the *concepts* above replace fungus-zombie, delirium, and haunted-tape defaults.
 
 ## Loop
@@ -20,10 +22,12 @@ Valley clinic/ranger denial → switchbacks (Consensus rises) → aspen graft en
 
 | System | Concept link | Behavior |
 | --- | --- | --- |
-| **Bloom** | Single Tree | Graft progress; filaments; root-memory whispers |
+| **Bloom** | Single Tree + Extraction | Graft / itch intensity; rises hard on every satisfying pull |
 | **Consensus** | High Consensus | Rises with elevation / group size; removes dissent options |
 | **Exposure** | Leaf-Peeping | Filming/keeping gold footage raises Bloom + Evidence |
-| **Inventory** | RE bones | Keys, burn gel, filter mask, memory cards, dictaphone save |
+| **Extract** | Satisfying disgust | Popper macro minigame; Evidence up, threads spawn worse |
+| **Hallucination** | Escalation | Vein-worms, sleep-aspens, web shoots — triggered at Bloom thresholds |
+| **Inventory** | RE bones | Keys, burn gel, filter mask, memory cards, tweezers, dictaphone save |
 | **Joined** | All three | Calm, synchronized hikers — not sprinting undead |
 
 ## Zones (Colorado-coded)

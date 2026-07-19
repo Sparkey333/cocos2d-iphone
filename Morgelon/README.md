@@ -6,9 +6,9 @@ Colorado mountain horror — **three concepts** mainstream horror usually blocks
 2. **High Consensus** — altitude creates agreement, not delirium  
 3. **Leaf-Peeping Eschaton** — tourist / DJI beauty completes the harvest (not haunted VHS)  
 
-Details: [`CONCEPTS.md`](CONCEPTS.md) · systems: [`DESIGN.md`](DESIGN.md)
+Details: [`CONCEPTS.md`](CONCEPTS.md) · body engine: [`EXTRACTION.md`](EXTRACTION.md) · systems: [`DESIGN.md`](DESIGN.md)
 
-Fiction. Obey park & drone law. No real injury.
+Fiction. Obey park & drone law. **Prosthetics only** — never dig at real sores for footage.
 
 ## Web
 

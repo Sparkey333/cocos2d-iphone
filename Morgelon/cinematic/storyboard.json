@@ -1,15 +1,15 @@
 {
   "title": "MORGELON",
-  "logline": "In the Colorado gold, the forest is one body, the altitude agrees for you, and every perfect drone shot finishes the harvest.",
-  "disclaimer": "Fiction · Colorado mountain horror concepts · not medical advice",
+  "logline": "Itch, strings, sores — then the pulls feel too good. Worms in the blood, webs in your sleep, trees under the eyelids. Colorado watches. Every extraction makes more thread.",
+  "disclaimer": "Fiction · satisfying-disgust body horror · not medical advice · prosthetics only",
   "style_bible": {
-    "look": "Colorado high country beauty as bait; clonal aspen seas; The Fly wet graft macros; tourist overlooks as temples; cold alpine light + autumn gold",
-    "camera": "legal drone gods-eye, locked-off consensus turns, doorway valley airlock, tragic macros",
+    "look": "Morgellons-coded itch/strings/ulcers escalating to hallucinated vein-worms, sleep-aspens, spider-web shoots; Dr Pimple Popper dead-center extraction macros (satisfying disgust) + Colorado gold beauty as bait; The Fly wet practical",
+    "camera": "bright clean macro on the pull, hold the hole, drone canopy, locked consensus turns, doorway airlock",
     "color_grading": "cold_steel",
     "light_scheme": "practicals",
     "genre": "horror",
-    "concepts": ["Single Tree", "High Consensus", "Leaf-Peeping Eschaton"],
-    "negative": "cabin witch, sprint zombies, cartoon mushrooms, haunted VHS, hypoxia-was-a-dream twist, purple alien goo"
+    "concepts": ["Single Tree", "High Consensus", "Leaf-Peeping Eschaton", "Extraction / satisfying disgust"],
+    "negative": "cabin witch, sprint zombies, cartoon mushrooms, haunted VHS, jokey pimple-pop host VO, comedy pus fountain, hypoxia-was-a-dream twist, purple alien goo, filming real self-harm"
   },
   "shots": [
     {
@@ -44,18 +44,18 @@
     },
     {
       "id": "03_thread",
-      "slug": "GRAFT",
-      "duration_sec": 8,
-      "narration": "Not infection — graft. The Single Tree finds skin.",
-      "on_screen": "Root-silk. Aspen white.",
-      "support": "The Fly’s wet practical. Never a cartoon mushroom.",
-      "concept": "Single Tree",
-      "dji_slate": "C03–C04",
-      "image_prompt": "Extreme macro 16:9 The Fly practical: wet pale root-silk filament with bark microtexture against aspen bark and gelled appliance, sweat sheen, Colorado forest bokeh, photoreal, no open wound, no text.",
-      "video_prompt": "Macro hold as root-silk filament trembles between bark and prosthetic sleeve. Cronenberg intimacy outdoors.",
+      "slug": "EXTRACT",
+      "duration_sec": 10,
+      "narration": "Always itching. Strings in the sore. The pull feels too good — then another thread climbs.",
+      "on_screen": "Satisfying. Disgusting. Worse.",
+      "support": "Popper macro grammar. Horror owns the aftertaste.",
+      "concept": "Extraction / Single Tree",
+      "dji_slate": "G01–G03+C03",
+      "image_prompt": "Extreme macro 16:9 clinical bright light on a prosthetic ulcer with a pale wet filament mid-extraction by metal tweezers, Dr Pimple Popper framing dead-center, satisfying disgust, photoreal, glycerin sheen, second thread visible at frame edge, no real injury, no text, no logos, no smiling host.",
+      "video_prompt": "Dead-center macro: tweezers slowly draw a wet filament from a prosthetic sore under clean bright light. Hold the hole. A second thread creeps in at the edge. Silent ASMR horror. No comedy VO.",
       "camera_style": "silent_machine",
-      "light_scheme": "practicals",
-      "color_grading": "cold_steel"
+      "light_scheme": "overhead_fall",
+      "color_grading": "bleach_bypass"
     },
     {
       "id": "04_mischief",
@@ -103,16 +103,17 @@
       "color_grading": "bleached_warm"
     },
     {
+    {
       "id": "07_aspen",
-      "slug": "CLONE CORE",
+      "slug": "SLEEP TREES / CLONE CORE",
       "duration_sec": 12,
-      "narration": "A thousand trunks. One genome. Trees in the blood of the mountain.",
-      "on_screen": "The Single Tree.",
-      "support": "Stand inside the body.",
-      "concept": "Single Tree",
-      "dji_slate": "C01–C02+E01",
-      "image_prompt": "16:9 dense Colorado aspen clone stand, countless white trunks as one organism, gold canopy cathedral, volumetric cold light, sublime botanical horror, photoreal, no text.",
-      "video_prompt": "Slow move through a clonal aspen cathedral; canopy breathes once. Impossible calm.",
+      "narration": "In sleep they crop up like aspens under the lids. Wake to webs. Daylight: the Colorado stand was the dream all along.",
+      "on_screen": "Trees in the blood. Webs in the dark.",
+      "support": "Hallucination cashes the itch. The mountain rhymes.",
+      "concept": "Single Tree + Extraction escalation",
+      "dji_slate": "C01–C02+G05+E01",
+      "image_prompt": "16:9 dense Colorado aspen clone stand dissolving at edges into dream logic: faint spider-web filaments between trunks, suggestion of sapling tips like under eyelids, gold canopy cathedral, sublime botanical body horror, photoreal, no text.",
+      "video_prompt": "Clonal aspen cathedral; cut suggestion of webs and sleep-saplings; canopy breathes once. Itch under the wind.",
       "camera_style": "impossible_camera",
       "light_scheme": "contre_jour",
       "color_grading": "cold_steel"

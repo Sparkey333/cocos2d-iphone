@@ -3,7 +3,9 @@
 A refocus: not “another fungus zombie movie,” not cabin folklore, not found-footage possession.  
 Three concepts that mainstream horror usually **blocks, soft-pedals, or never tries** — staged for **real Colorado mountain footage**.
 
-Fiction only.
+**Body engine (all three ride on this):** real-coded Morgellons-like itch/strings/sores → exaggerated hallucinations (vein-worms, sleep-trees, spider-web shoots) → shot with **Dr. Pimple Popper “satisfying disgust”** extraction grammar. See [`EXTRACTION.md`](EXTRACTION.md).
+
+Fiction only. Do not dig at real skin for footage — prosthetics only.
 
 ---
 

@@ -1,10 +1,10 @@
 {
   "title": "MORGELON",
-  "logline": "In the Colorado gold, the forest is one body, the altitude agrees for you, and every perfect drone shot finishes the harvest.",
-  "disclaimer": "Fiction \u00b7 Colorado mountain horror concepts \u00b7 not medical advice",
+  "logline": "Itch, strings, sores \u2014 then the pulls feel too good. Worms in the blood, webs in your sleep, trees under the eyelids. Colorado watches. Every extraction makes more thread.",
+  "disclaimer": "Fiction \u00b7 satisfying-disgust body horror \u00b7 not medical advice \u00b7 prosthetics only",
   "source": "interim-keyart",
-  "note": "Colorado concepts \u2014 replace with DJI plates MORG_CO_* and/or Higgsfield",
-  "generated_at": "2026-07-19T02:50:49Z",
+  "note": "Extraction + Colorado concepts \u2014 DJI Block G macros + Higgsfield",
+  "generated_at": "2026-07-19T06:23:10Z",
   "shots": [
     {
       "id": "01_title",
@@ -32,15 +32,15 @@
     },
     {
       "id": "03_thread",
-      "slug": "GRAFT",
+      "slug": "EXTRACT",
       "still": "stills/03_thread.png",
       "clip": null,
-      "duration_sec": 8,
-      "narration": "Not infection \u2014 graft. The Single Tree finds skin.",
-      "on_screen": "Root-silk. Aspen white.",
-      "support": "The Fly\u2019s wet practical. Never a cartoon mushroom.",
-      "concept": "Single Tree",
-      "dji_slate": "C03\u2013C04"
+      "duration_sec": 10,
+      "narration": "Always itching. Strings in the sore. The pull feels too good \u2014 then another thread climbs.",
+      "on_screen": "Satisfying. Disgusting. Worse.",
+      "support": "Popper macro grammar. Horror owns the aftertaste.",
+      "concept": "Extraction / Single Tree",
+      "dji_slate": "G01\u2013G03+C03"
     },
     {
       "id": "04_mischief",

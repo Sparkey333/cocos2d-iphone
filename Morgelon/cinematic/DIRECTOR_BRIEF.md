@@ -119,11 +119,28 @@ Slate format: `MORG_CO_{BLOCK}{##}` e.g. `MORG_CO_A01`.
 
 ---
 
+## BLOCK G — Extraction (satisfying disgust / “Popper” grammar)
+
+See [`EXTRACTION.md`](../EXTRACTION.md). **Prosthetic ulcers + buried thread only. Never film real picking of real sores.**
+
+| Slate | Body | Direction |
+| --- | --- | --- |
+| G01 | Phone/Pocket true macro | Bright clean light on silicone sore. Dead-center. Itch: nail hovers, doesn’t break real skin. |
+| G02 | Macro | Tweezers enter late. Pull chartreuse/white thread slow. Hold the hole after. Relief breath on mic. |
+| G03 | Macro | Second filament appears at edge of frame *while* they’re still staring at the first — rule: looking/pulling makes more. |
+| G04 | Pocket | “Always itching” montage: cuff, ankle, scalp line — three quick scratches, no comedy. |
+| G05 | Pocket + practical web | Cabin night: pre-strung monofilament “spider web” shoots from pillow toward lens on a yank (hidden pull). Cut to aspen twig tips “cropping up” through sheet (prop). |
+| G06 | VFX plate / Higgsfield later | Vein-worm hallucination insert — shoot clean forearm macro under blue gel as plate; worms added in post. Pearl/translucent, not creature-feature. |
+
+**Sound on G:** close-mic wet *tick* of the pull; then thin whine (Bloom up). No jokey host VO.
+
+---
+
 ## Sound (wild)
 
-Wind, aspen leaf-quake (if in season), parking-lot murmurs, drone motors (legal distance), metronome (strip later), room tone at overlook 60s.
+Wind, aspen leaf-quake (if in season), parking-lot murmurs, drone motors (legal distance), metronome (strip later), room tone at overlook 60s, **itch Foley**, **extraction tick**.
 
-ADR: clinic denial; Chorus as stacked whispers of the **same kind sentence**.
+ADR: clinic denial; Chorus as stacked whispers of the **same kind sentence**; sleep mutter: *they’re trees now.*
 
 ---
 
@@ -143,7 +160,8 @@ Cut into `clips/01_title.mp4` … or Higgsfield `--video-references` after auth.
 1. **C01** drone canopy (weather window)  
 2. **D01–D02** lot ritual while light is gold  
 3. **B02** unison turn at overlook  
-4. **C03** graft macro in stand  
-5. **A01–A04** valley airlock when you lose alpine light  
+4. **C03 + G01–G03** graft + extraction macros (same kit, cabin/tent table)  
+5. **G05** sleep web/trees if you have a dark room  
+6. **A01–A04** valley airlock when you lose alpine light  
 
-Text the agent a frame from **B02** or **C03** for a yes/no before you pack up.
+Text the agent a frame from **G02** (the pull) or **B02** for a yes/no before you pack up.

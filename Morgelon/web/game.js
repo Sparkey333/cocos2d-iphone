@@ -55,6 +55,22 @@
     state.power += 1;
     state.lastLie = "Fiber matches no textile catalog.";
     spawnThreadVisual();
+    // Satisfying disgust: the pull spawns more thread at the edge
+    if (state.bloom >= 40) spawnThreadVisual();
+    if (state.bloom >= 70) spawnThreadVisual();
+    const status = document.querySelector("#screen-body .support");
+    if (status) {
+      if (state.bloom >= 70) {
+        status.textContent =
+          "Too good. Now the images lie worse — worms in the blood, webs shooting in the dark, aspens cropping up in sleep. Still itching.";
+      } else if (state.bloom >= 40) {
+        status.textContent =
+          "Relief for one second. Another filament climbs the sore while you watch. Satisfying. Disgusting.";
+      } else {
+        status.textContent =
+          "Ulcer edge. String. The tweezers tick. Always itching.";
+      }
+    }
     refreshMeters();
   }
 
