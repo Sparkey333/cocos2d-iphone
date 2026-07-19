@@ -12,16 +12,16 @@ const BLOCKS = [
     body: "Overlook, locked-off. Three calm hikers turn to camera on one clap (High Consensus).",
   },
   {
-    id: "4 · C03 Graft macro",
-    body: "Root-silk thread + gel on sleeve/appliance against bark. Hold like The Fly.",
+    id: "4 · C03 + G01–G03 Extract",
+    body: "Graft + Popper macros: bright light, tweezers, prosthetic ulcer, pull, hold the hole — second thread creeps in. Prosthetics only.",
   },
   {
-    id: "5 · A01–A04 Valley airlock",
+    id: "5 · G05 Sleep webs / trees",
+    body: "Dark room: yank-web to lens + aspen tips through sheet. Hallucination cash-out.",
+  },
+  {
+    id: "6 · A01–A04 Valley airlock",
     body: "When alpine light dies: clinic/visitor doorway, redactions, inventory + GOLD memory card.",
-  },
-  {
-    id: "Blocks A–F",
-    body: "Airlock · Consensus · Single Tree · Leaf-peeping · Treeline fork · Safe granite. Full tables in DIRECTOR_BRIEF.md.",
   },
 ];
 
