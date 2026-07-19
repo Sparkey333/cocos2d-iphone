@@ -10,6 +10,20 @@ Details: [`CONCEPTS.md`](CONCEPTS.md) · body engine: [`EXTRACTION.md`](EXTRACTI
 
 Fiction. Obey park & drone law. **Prosthetics only** — never dig at real sores for footage.
 
+## Download (DMG)
+
+Build locally:
+
+```bash
+# needs genisoimage + libdmg-hfsplus `dmg` binary (see packaging/build_dmg.sh)
+./Morgelon/packaging/build_dmg.sh ./Morgelon/dist
+open ./Morgelon/dist/Morgelon.dmg
+```
+
+Cloud artifact: `Morgelon.dmg` (macOS) — double-click **Open Morgelon.command** inside.
+
+Premium design: [`PREMIUM.md`](PREMIUM.md)
+
 ## Web
 
 ```bash
@@ -21,7 +35,7 @@ cd Morgelon/web && python3 -m http.server 8765
 | `/` | Cinematic |
 | `/concepts.html` | The three engines |
 | `/direct.html` | Colorado one-day DJI order |
-| `/game.html` | Evidence path prototype |
+| `/game.html` | Evidence path (hold-to-extract) |
 
 ## Shoot (Colorado)
 
