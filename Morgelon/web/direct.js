@@ -1,27 +1,27 @@
 const BLOCKS = [
   {
-    id: "A — Intake Clinic",
-    body: "Doorway enter, empty chair, white coat exit, redacted clipboard, inventory hero macros. Pocket 3. RE hub language.",
+    id: "1 · C01 Drone canopy",
+    body: "Weather window first. Aspen sea as one body (Single Tree). Subtle shared sway — no wildlife harassment.",
   },
   {
-    id: "B — The Joined",
-    body: "Idle fruiting sway, Chorus pulse turn, many-angle hallway approach on metronome. Fungal group mind — sync, don’t sprint.",
+    id: "2 · D01–D02 Lot ritual",
+    body: "Golden-hour parking lot: tripods, faces tilting up as the craft lifts (Leaf-Peeping Eschaton).",
   },
   {
-    id: "C — Quarantine Flood",
-    body: "Plastic cathedral, Action-cam wade, filaments on barrier tape, loudspeaker lie plate for ADR.",
+    id: "3 · B02 Unison turn",
+    body: "Overlook, locked-off. Three calm hikers turn to camera on one clap (High Consensus).",
   },
   {
-    id: "D — The Fly Lab",
-    body: "Confession push-in, practical filament from appliance/gel (never real wound), resin sweat macro, sealed booth telefusion anxiety.",
+    id: "4 · C03 Graft macro",
+    body: "Root-silk thread + gel on sleeve/appliance against bark. Hold like The Fly.",
   },
   {
-    id: "E — Aspen / Chorus",
-    body: "Legal drone over pale trees, fruiting through vents, vein tunnel move, unison exhale ending.",
+    id: "5 · A01–A04 Valley airlock",
+    body: "When alpine light dies: clinic/visitor doorway, redactions, inventory + GOLD memory card.",
   },
   {
-    id: "F — Safe Room",
-    body: "Dictaphone save ritual, map scribble, 15 seconds of shoulders dropping. Let the game breathe.",
+    id: "Blocks A–F",
+    body: "Airlock · Consensus · Single Tree · Leaf-peeping · Treeline fork · Safe granite. Full tables in DIRECTOR_BRIEF.md.",
   },
 ];
 

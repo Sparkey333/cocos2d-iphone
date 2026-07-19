@@ -1,98 +1,106 @@
 {
   "title": "MORGELON",
-  "logline": "Survival horror in a fungal facility: Resident Evil structure, a Chorus group mind, and The Fly\u2019s wet practical body horror.",
-  "disclaimer": "Fiction \u00b7 body horror cinematic \u00b7 not medical advice",
+  "logline": "In the Colorado gold, the forest is one body, the altitude agrees for you, and every perfect drone shot finishes the harvest.",
+  "disclaimer": "Fiction \u00b7 Colorado mountain horror concepts \u00b7 not medical advice",
   "source": "interim-keyart",
-  "note": "Replace clips with DJI plates and/or Higgsfield Cinema Studio after auth",
-  "generated_at": "2026-07-19T02:49:04Z",
+  "note": "Colorado concepts \u2014 replace with DJI plates MORG_CO_* and/or Higgsfield",
+  "generated_at": "2026-07-19T02:50:49Z",
   "shots": [
     {
       "id": "01_title",
-      "slug": "TITLE",
+      "slug": "COLORADO GOLD",
       "still": "stills/01_title.png",
       "clip": null,
       "duration_sec": 8,
       "narration": "Morgelon.",
       "on_screen": "MORGELON",
-      "support": "The facility is fruiting. The Chorus is listening.",
-      "dji_slate": "E01+E02"
+      "support": "Three concepts. One mountain.",
+      "concept": "Leaf-Peeping Eschaton + Single Tree",
+      "dji_slate": "C01+D03"
     },
     {
       "id": "02_clinic",
-      "slug": "INTAKE",
+      "slug": "VALLEY AIRLOCK",
       "still": "stills/02_clinic.png",
       "clip": null,
       "duration_sec": 10,
-      "narration": "Doctors call them crazy and tell them to leave.",
+      "narration": "Below the grade, they still tell you to leave.",
       "on_screen": "There is nothing in your skin.",
-      "support": "Safe rooms lie too. Latch the door anyway.",
-      "dji_slate": "A01\u2013A04"
+      "support": "Visitor center. Clinic. Denial before the switchbacks.",
+      "concept": "Denial airlock",
+      "dji_slate": "A01\u2013A03"
     },
     {
       "id": "03_thread",
-      "slug": "FILAMENT",
+      "slug": "GRAFT",
       "still": "stills/03_thread.png",
       "clip": null,
       "duration_sec": 8,
-      "narration": "Pull a thread \u2014 hear someone else\u2019s last minute.",
-      "on_screen": "Mycelium remembers.",
-      "support": "Inventory slot: evidence that moves.",
-      "dji_slate": "D02\u2013D03"
+      "narration": "Not infection \u2014 graft. The Single Tree finds skin.",
+      "on_screen": "Root-silk. Aspen white.",
+      "support": "The Fly\u2019s wet practical. Never a cartoon mushroom.",
+      "concept": "Single Tree",
+      "dji_slate": "C03\u2013C04"
     },
     {
       "id": "04_mischief",
-      "slug": "JOINED",
+      "slug": "HIGH CONSENSUS",
       "still": "stills/04_mischief.png",
       "clip": null,
       "duration_sec": 9,
-      "narration": "The Joined do not chase alone. The Chorus aims them.",
-      "on_screen": "Group mind. Shared breath.",
-      "support": "Burn the fruiting node \u2014 desync the pack.",
-      "dji_slate": "B01\u2013B03"
+      "narration": "Thin air does not confuse them. It makes them agree.",
+      "on_screen": "Smiling. Synchronized.",
+      "support": "The choice menus are disappearing.",
+      "concept": "High Consensus",
+      "dji_slate": "B02\u2013B03"
     },
     {
       "id": "05_flood",
-      "slug": "QUARANTINE",
+      "slug": "SWITCHBACKS",
       "still": "stills/05_flood.png",
       "clip": null,
       "duration_sec": 10,
-      "narration": "Flooding the zones and lies.",
-      "on_screen": "The zone was never contaminated.",
-      "support": "Knee water. Plastic cathedral. Loudspeaker gospel.",
-      "dji_slate": "C01\u2013C04"
+      "narration": "Radios overlap. Tracks converge. The grade edits the party.",
+      "on_screen": "Consensus rises with elevation.",
+      "support": "Action-cam breath. Calm faces in cutaways.",
+      "concept": "High Consensus",
+      "dji_slate": "B01+B04"
     },
     {
       "id": "06_vaccine",
-      "slug": "LAB",
+      "slug": "LEAF-PEEPING",
       "still": "stills/06_vaccine.png",
       "clip": null,
       "duration_sec": 8,
-      "narration": "The lab promises fusion. The Chorus promises belonging.",
-      "on_screen": "Telefusion anxiety.",
-      "support": "A booth. A seal. A red LED. The Fly\u2019s prayer.",
-      "dji_slate": "D01+D05+A04"
+      "narration": "They came for the gold. Their looking finishes the harvest.",
+      "on_screen": "Tourism is the ritual.",
+      "support": "Tripods. Controllers. Stamens.",
+      "concept": "Leaf-Peeping Eschaton",
+      "dji_slate": "D01\u2013D02+D04"
     },
     {
       "id": "07_aspen",
-      "slug": "FRUITING",
+      "slug": "CLONE CORE",
       "still": "stills/07_aspen.png",
       "clip": null,
       "duration_sec": 12,
-      "narration": "Aspens in the stack. Trees in the bloodline of the building.",
-      "on_screen": "Mycelial Stack / Aspen Vein",
-      "support": "Boss gate. The Chorus speaks in unison.",
-      "dji_slate": "E02\u2013E04"
+      "narration": "A thousand trunks. One genome. Trees in the blood of the mountain.",
+      "on_screen": "The Single Tree.",
+      "support": "Stand inside the body.",
+      "concept": "Single Tree",
+      "dji_slate": "C01\u2013C02+E01"
     },
     {
       "id": "08_power",
-      "slug": "CHORUS",
+      "slug": "SUMMIT / DESCENT",
       "still": "stills/08_power.png",
       "clip": null,
       "duration_sec": 10,
       "narration": "The appearance of mischief is evidence enough with power.",
-      "on_screen": "Evidence is a weapon. Bloom is a countdown.",
-      "support": "They called you crazy. The filaments kept the minutes.",
-      "dji_slate": "E04+F01"
+      "on_screen": "Keep the GOLD card \u2014 or delete and descend alone.",
+      "support": "Evidence is a weapon. Consensus is a countdown.",
+      "concept": "All three",
+      "dji_slate": "E02\u2013E03+D05"
     }
   ]
 }

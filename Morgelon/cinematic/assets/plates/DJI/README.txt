@@ -1,1 +1,1 @@
-# Drop DJI plates here as MORG_D1_A01.mp4 etc. See DIRECTOR_BRIEF.md
+Drop Colorado DJI plates as MORG_CO_A01.mp4 etc. See ../../DIRECTOR_BRIEF.md and CONCEPTS.md

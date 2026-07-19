@@ -1,177 +1,149 @@
-# MORGELON — Director’s Brief (DJI Practical Unit)
+# MORGELON — Colorado Mountains Director’s Brief (DJI)
 
-You shoot. I direct. Goal: **Resident Evil facility dread** + **fungal hivemind geography** + **The Fly’s wet practical production value**.
+You shoot in the **Colorado high country**. I direct.  
+Concepts: **Single Tree** · **High Consensus** · **Leaf-Peeping Eschaton** ([CONCEPTS.md](../CONCEPTS.md)).
 
-Fiction body horror. No real injury. No medical claims. Use prosthetics, food-safe gels, fishing line, resin, mushrooms, and wardrobe — never harm anyone for a shot.
+Fiction body horror. No real injury. Prosthetics, gel, thread only.  
+Obey all park/forest rules, drone laws, fire bans, wildlife distance, and permits. If a named iconic site is restricted, **cheat geography** — similar aspens, similar overlook, fictional place names on slate.
 
 ---
 
-## North star references (look, not plot)
+## North star (new movie, not default horror)
 
-| Reference | Steal this |
+| Do | Don’t |
 | --- | --- |
-| **The Fly (1986)** | Macro transformation, tragic intimacy, sweat/resin/hair, lab as confession booth |
-| **Resident Evil 2/7** | Doorway compositions, flashlight tunnels, safe-room breathers, item close-ups |
-| **fungal hivemind** | Many bodies, one rhythm; filaments as network cables through architecture |
+| Beauty so strong it feels sacred | Cabin-witch folklore cosplay |
+| Hikers calm and synchronized | Sprint zombies / cordyceps clickers |
+| Graft = root-silk practicals (Fly wet) | Cartoon mushrooms |
+| Drone gold as ritual | “Haunted SD card” jump-scare YouTube |
+| Elevation as agreement | “It was just hypoxia” twist |
 
-Grade target: cold fluorescents, amber practicals, slight green cast in shadows, fine grain. Avoid teal-orange blockbuster, avoid purple “alien goo.”
-
----
-
-## Kit assumptions
-
-Use what you have. Ideal mix:
-
-- **DJI Pocket 3 / Osmo Pocket** — character POV, door peeks, inventory macros
-- **DJI Osmo Action / Action Cam** — flood wades, wet practicals, crashy RE chase energy
-- **DJI drone (Mini/Air/Avata)** — only for exterior quarantine establishers + one “Chorus god’s-eye” over a field/forest; **no indoor drone** unless space is huge and legal
-- Optional: phone as B-cam for true-macro filament
-
-Shoot **D-Log / D-Log M** if available; keep ISO honest; expose for highlights on plastic/wet skin.
-
-Aspect: **16:9 master**; also grab **vertical 9:16** inserts for UI/phone props if easy.
+Grade: cold high-altitude light, gold leaf, blue shadows, slight green in shade. Fine grain. D-Log if you have it.
 
 ---
 
-## Production design (cheap, high value)
+## Kit
 
-Build a “Fly lab / RE wing” from:
+- **DJI Mini / Air** — clonal canopy gods-eye, overlook temples (legal airspace only)  
+- **DJI Pocket 3 / Osmo** — graft macros, clinic airlock, consensus faces  
+- **Action cam** — switchback POV, wind, breath  
+- Tripod for locked-off **unison** turns  
 
-- Clear plastic sheeting + spring clamps
-- Amber clip lights + one sick green bulb / gel
-- Fishing line / embroidery thread (filaments) — **chartreuse or off-white**
-- Hair gel + cornstarch + food coloring (resin sweat)
-- King oyster / enoki / dried aspen twigs (fruiting silhouettes — non-toxic, discard after)
-- Clipboard with thick black redaction bars (sharpie)
-- Latex gloves, paper gown, boots for flood
-- Cassette recorder or dictaphone (safe-room save ritual)
+Talent: 1 lead + 2 “Joined” hikers. Shared metronome **60–72 BPM** (phone in pocket).
 
-Talent: 1 lead + 1–2 “Joined” extras. Joined move on a shared metronome (phone click at 60–72 BPM).
-
-Safety: no breathing spores (use dry visuals only); no real needles in skin; flood water = clean shallow tray/hose; slip mats.
+Props: chartreuse/off-white thread, hair gel + cornstarch, clipboard redactions, dictaphone, spare memory card labeled GOLD, amber clip light for night/parking-lot.
 
 ---
 
-## Camera language (your standing orders)
+## Location menu (pick what’s open & legal)
 
-1. **Doorway frame** before every new room (RE).
-2. **Macro insert** of any object the player would pick up (key, vial, filament).
-3. **Hold longer than comfort** on transformation detail (Fly).
-4. When Chorus “speaks,” extras inhale/exhale **together** — camera stays still.
-5. Handheld for chase; locked-off tripod/Pocket ActiveTrack for tragedy.
+Use as a menu, not a mandate:
 
----
+| Code | Terrain | Serves concept |
+| --- | --- | --- |
+| **ASP** | Dense aspen stands (Kebler-like, Castle Creek–like, San Juan gold, Twin Lakes area, etc.) | Single Tree |
+| **PASS** | High paved pass / overlook (Independence-like, Guanella-like) | High Consensus |
+| **TREELINE** | Alpine approach above last trees | High Consensus climax |
+| **VALLEY** | Visitor center / clinic-adjacent small town edge | Denial airlock |
+| **LOT** | Scenic parking lot at golden hour | Leaf-Peeping Eschaton |
 
-## Shot list — Day 1 (facility / clinic / flood)
-
-Record each slate as `MORG_D1_A01` etc. Get **10s clean hold** after action for edit.
-
-### BLOCK A — Intake Clinic (RE hub)
-
-| Slate | Shot | Lens / body | Direction |
-| --- | --- | --- | --- |
-| A01 | **Doorway establish** | Pocket 3, 24–28mm eq, locked | Frame closed clinic door under fluorescent buzz. Hold 5s. Door opens inward. Enter. |
-| A02 | **Waiting room empty** | Pocket, slow push | Plastic chair, paper roll, clock. No people. Linger on a single pale thread on the seat. |
-| A03 | **White coat exit** | Pocket, hip height | Shoot the **back** of a coat walking away down corridor. Never face. Focus rack to door slam. |
-| A04 | **Clipboard lie** | Pocket macro / Action macro | Clipboard, thick redaction bars, vial bokeh. Lateral slide 8s. *Vaccine?? No one knows.* energy — no readable brands. |
-| A05 | **Inventory hero** | Pocket macro on table | Gloves lay out: latch key, spore mask filter, burn gel tube, cassette. One item at a time into frame. RE item pickup language. |
-
-### BLOCK B — The Joined (fungal group mind)
-
-| Slate | Shot | Lens / body | Direction |
-| --- | --- | --- | --- |
-| B01 | **Idle fruiting** | Pocket locked | Extra stands in corner, slight sway, head tilted. Filament makeup on neck/temple (gel + thread). Metronome breathing. |
-| B02 | **Chorus pulse** | Pocket locked wide | 2 extras. On clap: both turn toward camera **same frame**. No run yet. |
-| B03 | **Many-angle approach** | Action cam chest-rig POV | Lead backs down hallway. Extras enter from doors left/right on pulse. Staggered, then sync. Cut before contact. |
-| B04 | **Shared mouth** | Pocket ECU | Two profiles, lips just off-frame; record VO later in unison. Visual only: throats / Adam’s apple sync swallow. |
-
-### BLOCK C — Quarantine Flood (RE sewer energy)
-
-| Slate | Shot | Lens / body | Direction |
-| --- | --- | --- | --- |
-| C01 | **Plastic cathedral** | Pocket, low wide | Sheeting hung as walls; amber strobe or hazard light. Water on floor (shallow). |
-| C02 | **Wade POV** | Action cam helmet/chest | Knee-ish water (safe depth). Hands part plastic. Breathing in mic. |
-| C03 | **Barrier tape filaments** | Pocket | Chartreuse thread snagged on caution tape over dark water. Slow orbit. |
-| C04 | **Loudspeaker lie** | Pocket | PA horn or Bluetooth speaker in frame; you don’t need audio now — slate for ADR: *“The zone was never contaminated.”* |
-
-### BLOCK D — The Fly lab (transformation production value)
-
-| Slate | Shot | Lens / body | Direction |
-| --- | --- | --- | --- |
-| D01 | **Lab confession** | Pocket, 35mm eq, soft side light | Lead sits at metal table. Sweat (glycerin). Slow push to eyes. No jump cut. |
-| D02 | **Filament emerge (practical)** | Pocket/phone true macro | Thread pulled from **sleeve cuff / prosthetic appliance / gel mound** — NOT from real wound. Aspen-white, wet. Hold forever. |
-| D03 | **Resin sweat** | Macro | Gel + hair detail on forearm or appliance. Light grazes; look for chitin sheen. |
-| D04 | **Mirror refusal** | Pocket over-shoulder | Lead approaches mirror / blank stainless panel; we see shoulder filaments; face optional soft out-of-focus. |
-| D05 | **Telefusion anxiety** | Pocket | Any booth/closet/shower stall as “device.” Door seals. Red LED. Hands on glass. *The Fly* dread without needing a real telepod. |
-
-### BLOCK E — Aspen / Chorus cathedral
-
-| Slate | Shot | Lens / body | Direction |
-| --- | --- | --- | --- |
-| E01 | **Exterior god’s eye** | Drone (legal airspace) | Dawn/dusk pass over aspen or pale birch stand. Slow. Then hard cut to interior fruiting. |
-| E02 | **Fruiting in architecture** | Pocket | Twigs + enoki clusters forced through cardboard “tile” or vent grate. Low light. |
-| E03 | **Vein tunnel** | Pocket / Action through plastic tube or draped corridor | Move forward as if endoscope. Pulsing light (dimmer on amber). |
-| E04 | **Unison ending** | Locked Pocket | Lead + Joined face camera; on pulse, all exhale. Title card energy: *The appearance of mischief is evidence enough with power.* |
-
-### BLOCK F — Safe room (RE breath)
-
-| Slate | Shot | Lens / body | Direction |
-| --- | --- | --- | --- |
-| F01 | **Typewriter substitute** | Pocket | Dictaphone + ink + spore swab kit on table. Sit down. Shoulders drop. 15s silence. |
-| F02 | **Map scribble** | Overhead Pocket | Hand marks “X” on printed floorplan. Filament shadow crosses paper. |
+Slate format: `MORG_CO_{BLOCK}{##}` e.g. `MORG_CO_A01`.
 
 ---
 
-## Day 2 (optional) — chase & combat plates
+## BLOCK A — Valley Airlock (denial before the grade)
 
-| Slate | Direction |
-| --- | --- |
-| G01 | Flashlight tunnel run (Action) — light dies once |
-| G02 | Door slam / latch puzzle hands (Pocket macro) |
-| G03 | Burn gel applied to appliance fruiting (practical FX) |
-| G04 | Joined “desync” — extras fall out of metronome when fruiting prop is removed from frame |
-
----
-
-## Sound to capture wild
-
-- Fluorescent hum
-- Plastic sheet flap
-- Wet boots
-- Metronome click (leave in for edit sync, strip later)
-- Dictaphone button
-- Room tone 60s per location
-
-ADR later: clinic dismissal, Chorus whispers (stack the same line 3–5 takes slightly offset).
+| Slate | Body | Direction |
+| --- | --- | --- |
+| A01 | Pocket | Visitor-center / clinic doorway. Hold. Enter. RE geometry in mountain town. |
+| A02 | Pocket | Ranger pamphlet / clipboard with black redaction. Macro. |
+| A03 | Pocket | White coat or staff jacket walking away — back only. |
+| A04 | Pocket | Inventory on picnic table: latch key, filter mask, burn gel, **memory card GOLD**. |
 
 ---
 
-## Delivery to the game / cinematic pipeline
+## BLOCK B — High Consensus (altitude agreement)
 
-Drop files here:
+| Slate | Body | Direction |
+| --- | --- | --- |
+| B01 | Action | Switchback ascent POV. Breath heavy but faces calm when you cut to Pocket. |
+| B02 | Pocket locked | 3 hikers at overlook. Metronome. On clap: **all turn to camera same frame**, slight smile. No run. |
+| B03 | Pocket | ECU two throats / jackets — sync inhale. Wind bed. |
+| B04 | Pocket | Phones/GPS screens (no readable personal data) — tracks drawn as converging lines (prop map ok). |
+| B05 | Pocket | Journal prop: three notebooks, same sentence. Macro of handwriting. |
+
+*Avoid:* dizzy camerawork that screams “hallucination.” Keep the horror in **agreement**.
+
+---
+
+## BLOCK C — The Single Tree (clonal aspens)
+
+| Slate | Body | Direction |
+| --- | --- | --- |
+| C01 | **Drone** | Wide sea of white trunks or autumn gold. Slow. One gentle “breath” via altitude pulse (subtle). |
+| C02 | Pocket | Among trunks — low angle, many stems as one body. |
+| C03 | Pocket/phone macro | Thread + gel “root graft” on sleeve/appliance against bark. **The Fly** hold. Never real wound. |
+| C04 | Pocket | Hand on bark; cutaway to identical pale mark on another trunk deeper in. |
+| C05 | Action | Walk that feels like moving through capillaries — weaving stems, no comedy. |
+
+---
+
+## BLOCK D — Leaf-Peeping Eschaton (tourism as ritual)
+
+| Slate | Body | Direction |
+| --- | --- | --- |
+| D01 | Pocket | Parking lot: tripods, phones raised, quiet awe. Gold light. |
+| D02 | Pocket | Your DJI controller in frame; craft lifts; faces tilt up **in sync**. |
+| D03 | Drone | “Perfect” postcard pass — then one unnatural stillness in the canopy (no wildlife harassment). |
+| D04 | Pocket macro | Viewfinder / phone screen reflecting gold; filament only visible in the reflection (thread on glass). |
+| D05 | Pocket | Lead deletes vs keeps GOLD card — two takes. |
+
+---
+
+## BLOCK E — Core / Treeline fork
+
+| Slate | Body | Direction |
+| --- | --- | --- |
+| E01 | Drone / Pocket | Last trees → open alpine. Consensus max. |
+| E02 | Locked Pocket | Unison exhale; title energy: *The appearance of mischief is evidence enough with power.* |
+| E03 | Pocket | Descent alone — empty switchbacks. Or summit group — hands linked, calm. |
+
+---
+
+## BLOCK F — Safe rock (RE breath)
+
+| Slate | Body | Direction |
+| --- | --- | --- |
+| F01 | Pocket | Granite outcrop “safe” — dictaphone save. Shoulders drop 15s. |
+| F02 | Overhead | Hand marks root-map on printed topo (fictional annotations). |
+
+---
+
+## Sound (wild)
+
+Wind, aspen leaf-quake (if in season), parking-lot murmurs, drone motors (legal distance), metronome (strip later), room tone at overlook 60s.
+
+ADR: clinic denial; Chorus as stacked whispers of the **same kind sentence**.
+
+---
+
+## Delivery
 
 ```text
-Morgelon/cinematic/assets/plates/DJI/
-  MORG_D1_A01.mp4
-  ...
+Morgelon/cinematic/assets/plates/DJI/MORG_CO_A01.mp4
 ```
 
-Name = slate. Prefer **ProRes or high-bitrate H.264/H.265**, 24 or 23.976 fps for film; 29.97 ok for RE cam feel on chase plates.
-
-Then either:
-
-1. Edit selects into `cinematic/assets/clips/0X_*.mp4` matching `manifest.json` shot ids, **or**
-2. Use plates as `--video-references` / style refs in Higgsfield Cinema Studio after `higgsfield auth login`
-
-Update `manifest.json` `"source"` to `"dji+higgsfield"` when mixed.
+Prefer 24 / 23.976 fps for concept film; 29.97 ok for ascent POV.  
+Cut into `clips/01_title.mp4` … or Higgsfield `--video-references` after auth.
 
 ---
 
-## Director’s notes while you shoot
+## Shoot order if you only have one day
 
-- If it looks like a **YouTube scare prank**, stop — go closer, wetter, quieter.
-- If it looks like a **zombie run-and-gun**, stop — sync the extras, slow the camera.
-- If it looks like a **nature documentary mushroom tour**, stop — put architecture and human stakes back in frame.
-- When in doubt: **macro of the change**, then **wide of the room that doesn’t care**.
+1. **C01** drone canopy (weather window)  
+2. **D01–D02** lot ritual while light is gold  
+3. **B02** unison turn at overlook  
+4. **C03** graft macro in stand  
+5. **A01–A04** valley airlock when you lose alpine light  
 
-Text me (the agent) a slate ID + still frame when you want a yes/no before the next setup.
+Text the agent a frame from **B02** or **C03** for a yes/no before you pack up.
