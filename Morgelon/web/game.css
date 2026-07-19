@@ -23,11 +23,41 @@ body:not(.cinema) {
   min-height: 1.2em;
 }
 
+.extract-wrap {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.55rem;
+}
+
 .thread-stage {
   position: relative;
   width: 100%;
   height: 4.5rem;
   overflow: hidden;
+  background: rgba(0, 0, 0, 0.25);
+  border: 1px solid rgba(184, 224, 106, 0.15);
+}
+
+.extract-bar {
+  width: 100%;
+  height: 4px;
+  background: rgba(232, 228, 216, 0.12);
+}
+
+.extract-fill {
+  height: 100%;
+  width: 0%;
+  background: var(--filament);
+  box-shadow: 0 0 10px rgba(184, 224, 106, 0.45);
+  transition: width 0.05s linear;
+}
+
+.extract-hint {
+  margin: 0;
+  font-size: 0.72rem;
+  letter-spacing: 0.04em;
+  color: rgba(232, 228, 216, 0.45);
 }
 
 .thread {

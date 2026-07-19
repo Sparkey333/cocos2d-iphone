@@ -48,19 +48,33 @@
     refreshMeters();
   }
 
-  function pullThread() {
+  const extractFill = document.getElementById("extract-fill");
+  const extractHint = document.getElementById("extract-hint");
+  let extractHold = null;
+  let extractProgress = 0;
+
+  function pullThread(perfect) {
     state.threads += 1;
-    state.bloom = Math.min(100, state.bloom + 7);
-    state.evidence += 1;
-    state.power += 1;
+    state.bloom = Math.min(100, state.bloom + (perfect ? 7 : 4));
+    if (perfect) {
+      state.evidence += 1;
+      state.power += 1;
+    } else {
+      state.bloom = Math.min(100, state.bloom + 3);
+    }
     state.lastLie = "Fiber matches no textile catalog.";
     spawnThreadVisual();
-    // Satisfying disgust: the pull spawns more thread at the edge
     if (state.bloom >= 40) spawnThreadVisual();
     if (state.bloom >= 70) spawnThreadVisual();
+    try {
+      navigator.vibrate?.(perfect ? [12, 30, 18] : [40]);
+    } catch (_) {}
     const status = document.querySelector("#screen-body .support");
     if (status) {
-      if (state.bloom >= 70) {
+      if (!perfect) {
+        status.textContent =
+          "Released early. The itch spikes. Nothing useful came out — only more wanting.";
+      } else if (state.bloom >= 70) {
         status.textContent =
           "Too good. Now the images lie worse — worms in the blood, webs shooting in the dark, aspens cropping up in sleep. Still itching.";
       } else if (state.bloom >= 40) {
@@ -71,7 +85,41 @@
           "Ulcer edge. String. The tweezers tick. Always itching.";
       }
     }
+    if (extractHint) {
+      extractHint.textContent = perfect
+        ? "Perfect pull. Evidence up. Bloom up. More thread at the edge."
+        : "Hold longer next time — satisfaction requires commitment.";
+    }
     refreshMeters();
+  }
+
+  let extractHoldStart = 0;
+  let extractArmed = false;
+
+  function endExtract(commit) {
+    if (!extractArmed && !extractHoldStart) return;
+    if (extractHold) {
+      cancelAnimationFrame(extractHold);
+      extractHold = null;
+    }
+    const perfect = commit && extractProgress >= 0.98;
+    const shouldPull = commit && extractProgress > 0.15;
+    extractHoldStart = 0;
+    extractArmed = false;
+    if (shouldPull) pullThread(perfect);
+    extractProgress = 0;
+    if (extractFill) extractFill.style.width = "0%";
+  }
+
+  function tickExtract(ts) {
+    if (!extractHoldStart) return;
+    extractProgress = Math.min(1, (ts - extractHoldStart) / 900);
+    if (extractFill) extractFill.style.width = `${extractProgress * 100}%`;
+    if (extractProgress >= 1) {
+      endExtract(true);
+      return;
+    }
+    extractHold = requestAnimationFrame(tickExtract);
   }
 
   function spawnThreadVisual() {
@@ -138,7 +186,28 @@
     refreshMeters();
   });
 
-  document.getElementById("btn-pull")?.addEventListener("click", pullThread);
+  const btnPull = document.getElementById("btn-pull");
+  const startHold = (e) => {
+    e.preventDefault();
+    if (extractArmed) return;
+    extractArmed = true;
+    extractHoldStart = performance.now();
+    extractProgress = 0;
+    if (extractFill) extractFill.style.width = "0%";
+    extractHold = requestAnimationFrame(tickExtract);
+  };
+  const stopHold = (e) => {
+    e.preventDefault();
+    if (extractArmed || extractHoldStart) endExtract(true);
+  };
+  btnPull?.addEventListener("mousedown", startHold);
+  btnPull?.addEventListener("touchstart", startHold, { passive: false });
+  window.addEventListener("mouseup", (e) => {
+    if (extractHoldStart) stopHold(e);
+  });
+  window.addEventListener("touchend", (e) => {
+    if (extractHoldStart) stopHold(e);
+  });
 
   document.getElementById("btn-wade")?.addEventListener("click", () => {
     state.denial += 2;
