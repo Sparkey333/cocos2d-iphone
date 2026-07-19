@@ -1,0 +1,9 @@
+.env
+credentials/client_secret.json
+credentials/token.json
+credentials/*.pickle
+__pycache__/
+*.pyc
+.venv/
+venv/
+bridge/.venv/

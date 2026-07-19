@@ -10,6 +10,25 @@ Details: [`CONCEPTS.md`](CONCEPTS.md) · body engine: [`EXTRACTION.md`](EXTRACTI
 
 Fiction. Obey park & drone law. **Prosthetics only** — never dig at real sores for footage.
 
+## Google Photos + Drive bridge
+
+Auto-import inspiration media (Drive folder sync, Photos Picker, inbox/Takeout, optional rclone):
+
+See [`bridge/README.md`](bridge/README.md).
+
+```bash
+cd Morgelon/bridge
+cp .env.example .env   # add client_secret.json + Drive folder id
+python3 -m venv .venv && source .venv/bin/activate
+pip install -r requirements.txt
+python -m morgelon_bridge auth
+python -m morgelon_bridge sync      # Drive + inbox
+python -m morgelon_bridge photos    # pick from Google Photos
+python -m morgelon_bridge daemon    # keep polling
+```
+
+Gallery: `web/inspiration.html` after imports.
+
 ## Download (DMG)
 
 Build locally:
@@ -49,9 +68,12 @@ One-day order: drone canopy → lot ritual → unison overlook turn → graft ma
 
 ## Higgsfield
 
+Cloud agent cannot finish OAuth for you. On your Mac:
+
 ```bash
 higgsfield auth login
 cd Morgelon/cinematic && ./generate_higgsfield.sh
+./packaging/build_dmg.sh ./dist   # rebuild DMG with Cinema Studio clips
 ```
 
-Storyboard retuned to Colorado + the three concepts: `cinematic/storyboard.json`.
+Notes: [`cinematic/HIGGSFIELD_STATUS.md`](cinematic/HIGGSFIELD_STATUS.md) · storyboard: `cinematic/storyboard.json`
