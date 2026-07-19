@@ -1,0 +1,106 @@
+{
+  "title": "MORGELON",
+  "logline": "Itch, strings, sores \u2014 then the pulls feel too good. Worms in the blood, webs in your sleep, trees under the eyelids. Colorado watches. Every extraction makes more thread.",
+  "disclaimer": "Fiction \u00b7 satisfying-disgust body horror \u00b7 not medical advice \u00b7 prosthetics only",
+  "source": "interim-keyart",
+  "note": "Extraction + Colorado concepts \u2014 DJI Block G macros + Higgsfield",
+  "generated_at": "2026-07-19T06:23:10Z",
+  "shots": [
+    {
+      "id": "01_title",
+      "slug": "COLORADO GOLD",
+      "still": "stills/01_title.png",
+      "clip": null,
+      "duration_sec": 8,
+      "narration": "Morgelon.",
+      "on_screen": "MORGELON",
+      "support": "Three concepts. One mountain.",
+      "concept": "Leaf-Peeping Eschaton + Single Tree",
+      "dji_slate": "C01+D03"
+    },
+    {
+      "id": "02_clinic",
+      "slug": "VALLEY AIRLOCK",
+      "still": "stills/02_clinic.png",
+      "clip": null,
+      "duration_sec": 10,
+      "narration": "Below the grade, they still tell you to leave.",
+      "on_screen": "There is nothing in your skin.",
+      "support": "Visitor center. Clinic. Denial before the switchbacks.",
+      "concept": "Denial airlock",
+      "dji_slate": "A01\u2013A03"
+    },
+    {
+      "id": "03_thread",
+      "slug": "EXTRACT",
+      "still": "stills/03_thread.png",
+      "clip": null,
+      "duration_sec": 10,
+      "narration": "Always itching. Strings in the sore. The pull feels too good \u2014 then another thread climbs.",
+      "on_screen": "Satisfying. Disgusting. Worse.",
+      "support": "Popper macro grammar. Horror owns the aftertaste.",
+      "concept": "Extraction / Single Tree",
+      "dji_slate": "G01\u2013G03+C03"
+    },
+    {
+      "id": "04_mischief",
+      "slug": "HIGH CONSENSUS",
+      "still": "stills/04_mischief.png",
+      "clip": null,
+      "duration_sec": 9,
+      "narration": "Thin air does not confuse them. It makes them agree.",
+      "on_screen": "Smiling. Synchronized.",
+      "support": "The choice menus are disappearing.",
+      "concept": "High Consensus",
+      "dji_slate": "B02\u2013B03"
+    },
+    {
+      "id": "05_flood",
+      "slug": "SWITCHBACKS",
+      "still": "stills/05_flood.png",
+      "clip": null,
+      "duration_sec": 10,
+      "narration": "Radios overlap. Tracks converge. The grade edits the party.",
+      "on_screen": "Consensus rises with elevation.",
+      "support": "Action-cam breath. Calm faces in cutaways.",
+      "concept": "High Consensus",
+      "dji_slate": "B01+B04"
+    },
+    {
+      "id": "06_vaccine",
+      "slug": "LEAF-PEEPING",
+      "still": "stills/06_vaccine.png",
+      "clip": null,
+      "duration_sec": 8,
+      "narration": "They came for the gold. Their looking finishes the harvest.",
+      "on_screen": "Tourism is the ritual.",
+      "support": "Tripods. Controllers. Stamens.",
+      "concept": "Leaf-Peeping Eschaton",
+      "dji_slate": "D01\u2013D02+D04"
+    },
+    {
+      "id": "07_aspen",
+      "slug": "CLONE CORE",
+      "still": "stills/07_aspen.png",
+      "clip": null,
+      "duration_sec": 12,
+      "narration": "A thousand trunks. One genome. Trees in the blood of the mountain.",
+      "on_screen": "The Single Tree.",
+      "support": "Stand inside the body.",
+      "concept": "Single Tree",
+      "dji_slate": "C01\u2013C02+E01"
+    },
+    {
+      "id": "08_power",
+      "slug": "SUMMIT / DESCENT",
+      "still": "stills/08_power.png",
+      "clip": null,
+      "duration_sec": 10,
+      "narration": "The appearance of mischief is evidence enough with power.",
+      "on_screen": "Keep the GOLD card \u2014 or delete and descend alone.",
+      "support": "Evidence is a weapon. Consensus is a countdown.",
+      "concept": "All three",
+      "dji_slate": "E02\u2013E03+D05"
+    }
+  ]
+}

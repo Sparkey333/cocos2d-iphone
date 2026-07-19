@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>MORGELON — Cinematic</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=DM+Mono:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="cinema">
+  <div id="grain" aria-hidden="true"></div>
+
+  <div id="stage" class="stage">
+    <img id="still" class="plate still" alt="" />
+    <video id="clip" class="plate clip" playsinline muted></video>
+    <div class="vignette" aria-hidden="true"></div>
+  </div>
+
+  <main id="hud" class="hud">
+    <p class="brand" id="brand">MORGELON</p>
+    <p class="shot-slug" id="slug">ITCH · EXTRACT · HALLUCINATE · COLORADO</p>
+    <h1 class="headline" id="line">The pull feels too good.</h1>
+    <p class="support" id="support">Strings. Sores. Always itching. Then worms in the blood, webs in your sleep, trees under the eyelids — and every extraction makes more thread.</p>
+    <p class="narration" id="narration">Satisfying disgust. Colorado gold. Don’t dig real skin — prosthetics only.</p>
+
+    <div class="controls">
+      <button type="button" class="cta" id="btn-play">Play cinematic</button>
+      <button type="button" class="cta ghost" id="btn-next" hidden>Next shot</button>
+      <a class="cta ghost" href="concepts.html">Three concepts</a>
+      <a class="cta ghost" href="direct.html">Colorado DJI</a>
+      <a class="cta ghost" href="inspiration.html">Inspiration</a>
+    </div>
+
+    <div class="progress" aria-hidden="true">
+      <div class="progress-bar" id="progress"></div>
+    </div>
+  </main>
+
+  <footer class="frame-note" id="disclaimer">Fiction · body horror cinematic · not medical advice</footer>
+  <script src="cinema.js"></script>
+</body>
+</html>

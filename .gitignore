@@ -61,3 +61,10 @@ installer/*.app
 .idea
 .idea
 **/*/.idea
+Morgelon/tools/node_modules/
+Morgelon/dist/
+Morgelon/bridge/.venv/
+Morgelon/cinematic/assets/plates/inspiration/**
+!Morgelon/cinematic/assets/plates/inspiration/gallery.json
+Morgelon/cinematic/assets/plates/inbox/**
+!Morgelon/cinematic/assets/plates/inbox/README.txt
